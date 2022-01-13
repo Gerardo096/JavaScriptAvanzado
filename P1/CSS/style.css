@@ -1,0 +1,27 @@
+button {
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/equis.png);
+}
+
+.tablero {
+    margin: auto;
+    display: grid;
+    width: 450px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10%;
+}
+
+img {
+    width: "150";
+    height: "150";
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(138, 141, 141);
+}
