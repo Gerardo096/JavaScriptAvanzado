@@ -13,16 +13,40 @@
 
 <body>
     <h1>Tres en Raya</h1>
-    <div class="tablero">
-        <button id="bt1"></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+    <div id="formulario">
+        <form action=""></form>
+        <label for="nombre">JUGADOR1:</label><br><br>
+        <input type="text" name="nombre1" id="nombre1" required/><br><br>
+        <label for="nombre">JUGADOR2:</label><br><br>
+        <input type="text" name="nombre2" id="nombre2" required/><br><br> TEMATICA DE JUEGO: <br><br>
+        <select name="Tematica">
+            <option value="derbi" selected>3 en raya Clasico</option>
+            <option value="clasic" >3 en raya Derbi(Sevilla vs Betis)</option>
+            
+          </select><br><br>
+
+
+        <button>JUGAR</button>
+    </div>
+
+    <div id="tablero">
+        <table id="table">
+            <tr>
+                <td><img id="img1" src="images/blanco.gif" onclick="cambiarImg()"></td>
+                <td><img id="img2" src="images/blanco.gif" onclick="cambiarImg2()"></td>
+                <td><img id="img3" src="images/blanco.gif" onclick="cambiarImg3()"></td>
+            </tr>
+            <tr>
+                <td><img id="img4" src="images/blanco.gif" onclick="cambiarImg4()"></td>
+                <td><img id="img5" src="images/blanco.gif" onclick="cambiarImg5()"></td>
+                <td><img id="img6" src="images/blanco.gif" onclick="cambiarImg6()"></td>
+            </tr>
+            <tr>
+                <td><img id="img7" src="images/blanco.gif" onclick="cambiarImg7()"></td>
+                <td><img id="img8" src="images/blanco.gif" onclick="cambiarImg8()"></td>
+                <td><img id="img9" src="images/blanco.gif" onclick="cambiarImg9()"></td>
+            </tr>
+        </table>
     </div>
 </body>
 <script src="script.js"></script>

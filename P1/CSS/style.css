@@ -1,27 +1,40 @@
-button {
-    width: 150px;
-    height: 150px;
-    background-image: url(../images/equis.png);
-}
-
-.tablero {
-    margin: auto;
-    display: grid;
-    width: 450px;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 10%;
-}
-
 img {
     width: "150";
     height: "150";
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10%;
 }
 
 body {
-    background-color: rgb(138, 141, 141);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(21, 138, 138);
+}
+
+table,
+th,
+td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+#tablero {
+    display: none;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.692);
 }
