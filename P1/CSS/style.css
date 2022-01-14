@@ -26,6 +26,10 @@ td {
     display: none;
 }
 
+#formulario {
+    display: block;
+}
+
 button {
     border: none;
     color: white;
@@ -37,4 +41,5 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
 }
