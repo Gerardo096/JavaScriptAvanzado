@@ -30,6 +30,15 @@ td {
     display: block;
 }
 
+#error {
+    color: red;
+    font-size: medium;
+}
+
+.marcador {
+    color: white;
+}
+
 button {
     border: none;
     color: white;

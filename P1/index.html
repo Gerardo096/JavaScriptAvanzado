@@ -12,41 +12,57 @@
 </head>
 
 <body>
+
     <h1>Tres en Raya</h1>
+
     <div id="formulario">
-        <form action="">
+        <p id="error"></p>
+        <form method="post">
+
             <label for="nombre">JUGADOR 1:</label><br><br>
             <input type="text" name="nombre1" id="nombre1" required/><br><br>
+
             <label for="nombre">JUGADOR 2:</label><br><br>
             <input type="text" name="nombre2" id="nombre2" required/><br><br> TEMATICA DE JUEGO: <br><br>
-            <select name="Tematica">
-            <option value="derbi" selected>3 en raya Clasico</option>
-            <option value="clasic" >3 en raya Derbi (Sevilla vs Betis)</option>
-         </select><br><br>
+
+            <select name="Tematica" id="tematica">
+            <option value="clasico" selected>3 en raya Clasico</option>
+            <option value="derbi" >3 en raya Derbi (Sevilla vs Betis)</option>
+           </select><br><br>
 
 
-            <button id="boton1">JUGAR</button>
+            <input id="boton" type="submit">
         </form>
+
     </div>
 
+
+
     <div id="tablero">
+        <h2 id="ganador"></h2>
+        <h3 id="jugador1" class="marcador"></h3><br>
+
+        <h3 id="jugador2" class="marcador"></h3><br>
+
+        <h4 id="usada"></h4>
         <table id="table">
             <tr>
-                <td><img id="img1" src="images/blanco.gif"></td>
-                <td><img id="img2" src="images/blanco.gif"></td>
-                <td><img id="img3" src="images/blanco.gif"></td>
+                <td><img id="img1" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img2" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img3" class="blanco" src="images/blanco.gif"></td>
             </tr>
             <tr>
-                <td><img id="img4" src="images/blanco.gif"></td>
-                <td><img id="img5" src="images/blanco.gif"></td>
-                <td><img id="img6" src="images/blanco.gif"></td>
+                <td><img id="img4" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img5" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img6" class="blanco" src="images/blanco.gif"></td>
             </tr>
             <tr>
-                <td><img id="img7" src="images/blanco.gif"></td>
-                <td><img id="img8" src="images/blanco.gif"></td>
-                <td><img id="img9" src="images/blanco.gif"></td>
+                <td><img id="img7" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img8" class="blanco" src="images/blanco.gif"></td>
+                <td><img id="img9" class="blanco" src="images/blanco.gif"></td>
             </tr>
         </table>
+        <h2 id="acabado"></h2>
     </div>
 </body>
 <script src="script.js"></script>
