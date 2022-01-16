@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(223, 62, 33);
+    margin: 0px;
+}
+
+.carrusel {
+    margin-left: 5%;
+    padding-left: 30px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.grande {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pequeñas {
+    height: 10%;
+    bottom: 0px;
+    align-items: center;
+    position: absolute;
+    width: 10%;
+    display: flex;
+}
+
+.imgcarrusel {
+    width: 150px;
+    height: 150px;
+    width: auto;
+}
+
+#imagen {
+    display: inline-block;
+    height: 700px;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
